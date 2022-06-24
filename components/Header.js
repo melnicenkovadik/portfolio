@@ -2,15 +2,16 @@ import React from "react";
 import Link from "next/link";
 import styles from "../styles/Header.module.scss";
 import { BsArrowUpRight, BsPersonFill } from "react-icons/bs";
-import { FiInstagram, FiGithub } from "react-icons/fi";
+import { FiInstagram, FiGithub,  } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
+import {ImTelegram} from "react-icons/im";
 
 function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.social}>
                 <a
-                    href="https://www.instagram.com/jmarques_98/"
+                    href="https://www.instagram.com/melnyschenko/"
                     rel="noreferrer"
                     target="_blank"
                     aria-label="My instagram page"
@@ -18,7 +19,7 @@ function Header() {
                     <FiInstagram />
                 </a>
                 <a
-                    href="https://github.com/JJMarques"
+                    href="https://github.com/melnicenkovadik"
                     target="_blank"
                     rel="noreferrer"
                     style={{ marginLeft: "30px" }}
@@ -27,13 +28,22 @@ function Header() {
                     <FiGithub />
                 </a>
                 <a
-                    href="mailto:jjgm98@gmail.com"
+                    href="mailto:melnicenkovadik@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     style={{ marginLeft: "30px" }}
                     aria-label="Contact me via email"
                 >
                     <SiGmail />
+                </a>
+                <a
+                    href="mailto:https://t.me/avokadikvadik"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ marginLeft: "30px" }}
+                    aria-label="Contact me via telegram"
+                >
+                    <ImTelegram />
                 </a>
             </div>
             <h1 className={styles.name}>Vadym Melnychenko</h1>
