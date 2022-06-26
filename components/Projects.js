@@ -6,7 +6,7 @@ import Link from 'next/link'
 import TabGroup from "./Tabs";
 
 const types = [{
-    title: 'My commerce',
+    title: 'Commercial projects',
     value: 'commerce'
 }, {
     title: 'Best Pet-projects',
