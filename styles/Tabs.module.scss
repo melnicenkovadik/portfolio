@@ -7,6 +7,8 @@
 
 
 .tabStyles {
+    padding: 0.5em 1em;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,15 +43,17 @@
     width: 100%;
     height: auto;
     animation: onLoad 1s;
-.privatReposMsg{
-    position: absolute;
-    top: -80px;
-    left: 20px;
-    font-size: 1.2em;
-    color: rgb(218, 50, 190);
-    animation: onLoad 1s;
-    
-}
+
+    .privatReposMsg {
+        position: absolute;
+        top: -80px;
+        left: 20px;
+        font-size: 1.2em;
+        color: rgb(218, 50, 190);
+        animation: onLoad 1s;
+
+    }
+
     .projectCard {
         &:hover {
             outline: 1px solid rgba(0, 0, 0, .2);
@@ -122,39 +126,34 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .projects {
-        .projectsContainers {
-            width: auto;
-            padding: 0 3em;
 
-            .titleReturn {
-                .title {
-                    font-size: 2em;
-                }
+    .projectsDisplay {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
 
-                .return {
-                    font-size: 1em;
-                }
-            }
+    .navigation {
+        flex-direction: column;
+        height: 110px;
+        justify-content: space-between;
+    }
+}
 
-            .separator {
-                margin: 1em 0;
-                height: 3px;
-                width: 130px;
-            }
+@media only screen and (max-width: 600px) {
 
-            .projectsDisplay {
-                grid-template-columns: repeat(1, 1fr);
-                gap: 5rem;
-            }
+    .projectsDisplay {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
 
-        }
+    .navigation {
+        flex-direction: column;
+        height: 110px;
+        justify-content: space-between;
+    }
+    .tabStyles {
 
-        .navigation {
-            flex-direction: column;
-            height: 110px;
-            justify-content: space-between;
-        }
+        font-size: 1em;
     }
 }
 
