@@ -39,7 +39,7 @@ import {
 import {FiArrowUpRight} from 'react-icons/fi'
 import Link from 'next/link'
 
-export default function Technologies() {
+function Technologies() {
 
     const iconStyle = {width: '50px', height: 'auto', margin: '1em'}
 
@@ -258,3 +258,5 @@ export default function Technologies() {
         </div>
     )
 }
+
+export default Technologies
