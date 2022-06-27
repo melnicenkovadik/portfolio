@@ -37,7 +37,7 @@ function Header() {
                     <SiGmail />
                 </a>
                 <a
-                    href="mailto:https://t.me/avokadikvadik"
+                    href="https://t.me/avokadikvadik"
                     target="_blank"
                     rel="noreferrer"
                     style={{ marginLeft: "30px" }}
