@@ -17,6 +17,7 @@ import {
     SiJavascript,
     SiJest,
     SiMaterialui,
+    SiChakraui,
     SiMobx,
     SiMongodb,
     SiNestjs,
@@ -168,6 +169,10 @@ function Technologies() {
                             <div className={styles.technologyItem}>
                                 <SiMaterialui style={iconStyle}/>
                                 <small>MaterialUI</small>
+                            </div>  
+                            <div className={styles.technologyItem}>
+                                <SiChakraui style={iconStyle}/>
+                                <small>Chakraui</small>
                             </div>
                             <div className={styles.technologyItem}>
                                 <SiBootstrap style={iconStyle}/>
