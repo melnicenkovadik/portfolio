@@ -134,6 +134,7 @@ export async function getStaticProps() {
             },
             {
                 data: [
+                    
                     {
                         name: "PokeSearcher",
                         img: "/pokesearch.png",
@@ -141,6 +142,14 @@ export async function getStaticProps() {
                             "A Web app that allows you to search for all the current Pokemons! It is Powered by PokeApi and built with React.js.",
                         githubHref: "https://github.com/melnicenkovadik/pokemons",
                         pageHref: "https://pokemons-khaki.vercel.app/",
+                    },
+                    {
+                        name: "Github search",
+                        img: "/GithubSearch.jpg",
+                        description:
+                            "React stack 2022. TypeScript, Redux Toolkit, RTKQuery, Tailwind",
+                        githubHref: "https://github.com/melnicenkovadik/GitHub-repos-search",
+                        pageHref: "https://git-hub-repos-search.vercel.app/",
                     },
                     {
                         name: "Portfolio",
