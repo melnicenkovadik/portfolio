@@ -134,7 +134,14 @@ export async function getStaticProps() {
             },
             {
                 data: [
-                    
+                    {
+                        name: "Discord-clone",
+                        img: "/discord.png",
+                        description:
+                            "Discord-clone. I create frontend and backend  It is Powered by MERN stack and",
+                        githubHref: "https://github.com/melnicenkovadik/discord-frontend",
+                        pageHref: "https://discord-frontend-nine.vercel.app",
+                    },
                     {
                         name: "PokeSearcher",
                         img: "/pokesearch.png",
