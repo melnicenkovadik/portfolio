@@ -48,7 +48,7 @@ function Projects({projects}) {
                     </Link>
                 </div>
                 <div className={styles.footer}>
-                    <p>Vadym Melnychenko 2021 - Contact me at <a href="mailto:jjgm98@gmail.com">jjgm98@gmail.com</a></p>
+                    <p>Vadym Melnychenko 2021 - Contact me at <a href="mailto:melnicenkovadik@gmail.com">melnicenkovadik@gmail.com</a></p>
                 </div>
             </div>
         </div>

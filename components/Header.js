@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../styles/Header.module.scss";
 import { BsArrowUpRight, BsPersonFill } from "react-icons/bs";
 import { FiInstagram, FiGithub,  } from "react-icons/fi";
-import { SiGmail } from "react-icons/si";
+import {SiGmail, SiOpencv} from "react-icons/si";
 import {ImTelegram} from "react-icons/im";
 
 function Header() {
@@ -45,7 +45,17 @@ function Header() {
                 >
                     <ImTelegram />
                 </a>
+                <a
+                    href="https://avokadikvadik.notion.site/Resume-CV-0b4c2c344ace488492989cc7695739cd"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ marginLeft: "30px",textDecoration: "none" }}
+                    aria-label="My CV"
+                >
+                    CV
+                </a>
             </div>
+          
             <h1 className={styles.name}>Vadym Melnychenko</h1>
             <div className={styles.roles}>
                 <h2>Front-End Developer</h2>
