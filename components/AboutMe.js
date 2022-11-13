@@ -27,7 +27,7 @@ function AboutMe() {
                             player with strengths in adaptability and accuracy. I have excellent experience as a web
                             developer, as well as an academic background in computer science and technology. Experience
                             and my academic background have given me some outstanding technical skills. I have more than
-                            3 years experience as React Developer. In addition, I have excellence in creating top-notch
+                            2 years experience as React Developer. In addition, I have excellence in creating top-notch
                             novelty designs. I firmly believe that these qualities set me apart from the rest of the
                             contestants.<br/><br/>I would also like to inform you that I have mastered HTML, CSS and
                             JavaScript and have a lot of experience with them.<br/><br/>I also have great knowledge and
