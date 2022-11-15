@@ -32,6 +32,13 @@ export async function getStaticProps() {
             {
                 data: [
                     {
+                        name: "WEPLAY COLLECTIBLES ",
+                        img: "/weplay.png",
+                        description:
+                            "WEPLAY is Powered by next.js",
+                        pageHref: "https://weplaycollectibles.com/",
+                    },
+                    {
                         name: "Arcadia Stacking ",
                         img: "/stacking.png",
                         description:

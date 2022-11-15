@@ -37,12 +37,17 @@ function TabGroup({types, projects}) {
                             <p>{project.description}</p>
                         </div>
                         <div className={styles.projectIcons}>
-                            <div style={{display: 'flex', alignItems: 'center', marginRight: '20px'}}>
-                                <a href={project.githubHref} target="_blank" rel="noreferrer">
-                                    <FiGithub style={{fontSize: '1.5em', color: '#DA32BE'}}/>
-                                    <small>Github</small>
-                                </a>
-                            </div>
+                            {
+                                project?.githubHref ?
+                                    <div style={{display: 'flex', alignItems: 'center', marginRight: '20px'}}>
+                                        <a href={project.githubHref} target="_blank" rel="noreferrer">
+                                            <FiGithub style={{fontSize: '1.5em', color: '#DA32BE'}}/>
+                                            <small>Github</small>
+                                        </a>
+                                    </div>
+                                    : null
+                            }
+                            
                             <div style={{display: 'flex', alignItems: 'center', marginRight: '20px'}}>
                                 <a href={project.pageHref} target="_blank" rel="noreferrer">
                                     <FiArrowUpRight style={{fontSize: '1.5em', color: '#DA32BE'}}/>
